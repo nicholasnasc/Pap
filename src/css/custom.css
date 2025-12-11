@@ -1,0 +1,94 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ED1C24;
+  --ifm-color-primary-dark: #C61018;
+  --ifm-color-primary-darker: #A50D14;
+  --ifm-color-primary-darkest: #7A0A0F;
+  --ifm-color-primary-light: #FF333A;
+  --ifm-color-primary-lighter: #FF5459;
+  --ifm-color-primary-lightest: #FF767A;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 102, 204, 0.1);
+  --ifm-footer-background-color: #1a1a1a;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ED1C24;
+  --ifm-color-primary-dark: #C61018;
+  --ifm-color-primary-darker: #A50D14;
+  --ifm-color-primary-darkest: #7A0A0F;
+  --ifm-color-primary-light: #FF333A;
+  --ifm-color-primary-lighter: #FF5459;
+  --ifm-color-primary-lightest: #FF767A;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-footer-background-color: #0f0f0f;
+}
+
+/* ===== FOOTER STYLES ===== */
+footer.footer {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-top: 3px solid #ED1C24;
+  padding: 3rem 0 1rem;
+}
+
+footer.footer a {
+  color: #FF7A80;
+  transition: color 0.3s ease;
+}
+
+footer.footer a:hover {
+  color: #FF333A;
+  text-decoration: none;
+}
+
+footer.footer__link-item {
+  font-weight: 500;
+}
+
+.footer__title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #ED1C24;
+  padding-bottom: 0.75rem;
+  display: inline-block;
+}
+
+.footer__items {
+  margin-bottom: 1.5rem;
+}
+
+.footer__item {
+  margin-bottom: 0.75rem;
+}
+
+.footer__copyright {
+  border-top: 1px solid rgba(237, 28, 36, 0.3);
+  padding-top: 2rem;
+  margin-top: 2rem;
+  color: #ccc;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer__copyright a {
+  color: #FF7A80;
+  font-weight: 600;
+}
+
+.footer__copyright a:hover {
+  color: #FF333A;
+}
+
+/* ===== BLOG STYLES ===== */
+/* Blog styles are now in src/theme/BlogPostItem/styles.module.css */
